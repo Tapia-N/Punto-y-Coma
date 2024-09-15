@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 
 /* Sección de Hoteles */
-.cafe, .experiencias, .testimonios {
+.cafe, .acompañamiento, .testimonios {
     padding: 60px 30px;
     text-align: center;
 }
@@ -96,23 +96,35 @@ h2 {
     margin-bottom: 40px;
 }
 
-.lista_cafe, .experiencia-list, .testimonio-list {
+.lista_cafe, .testimonio-list, .lista_acompañamiento {
     display: flex;
     justify-content: space-around;
 }
 
-.hotel, .experiencia {
-    width: 30%;
+.cafes {
+    width: 20%;
     text-align: center;
 }
 
-.hotel img, .experiencia img {
+.cafes img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 15px;
 }
 
-.hotel h3, .experiencia h3 {
+.acompañamientos{
+    width: 20%;
+    text-align: center;
+}
+
+.acompañamientos img{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;    
+}
+
+.cafes h3 {
     font-size: 24px;
 }
 
@@ -120,6 +132,17 @@ h2 {
     font-size: 18px;
     padding: 10px 20px;
     font-style: italic;
+}
+
+.freegluten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.freegluten img{
+    margin-right: 10px;
+    width: 100px;
 }
 
 /* Footer */
