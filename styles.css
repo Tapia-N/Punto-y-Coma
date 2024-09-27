@@ -22,19 +22,6 @@ header {
     color: white;
 }
 
-#background-image 
-{
-    background-image: url('https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455_1280.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 100vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 header h1 {
     margin: 0;
     align-items: center;
