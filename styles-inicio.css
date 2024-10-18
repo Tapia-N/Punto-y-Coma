@@ -1,0 +1,170 @@
+
+/* Global Styles */
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(35, 81%, 88%);
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Menú */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    background-image: url("img/fondo.jpeg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: beige;
+}
+
+/* Banner*/
+
+.banner {
+    background-image: url("img/fondo.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Brush Script MT;
+}
+
+.contenido-banner h2 {
+    font-size: 90px;
+    font-weight: 50;    
+    margin-bottom: 10px;
+}
+
+.contenido-banner p {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+/* Seccion Novedades */
+
+.seccion-novedades {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.seccion-novedades p{
+    font-size: 25px;
+}
+
+.lista-novedades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.novedades {
+    width: 20%;
+    text-align: center;
+}
+
+.novedades img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Seccion Nueva Sucursal */
+
+.banner-sucursal{
+    background-image: url("img/fondoubicacion.webp");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: beige;
+    font-family: Brush Script MT;
+}
+
+.contenido-banner-sucursal h2 {
+    font-size: 90px;
+    font-weight: 50;    
+    margin-bottom: 10px;
+}
+
+.contenido-banner-sucursal p {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+/* Seccion Sobre Nosotros*/
+
+.sobre-nosotros {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.sobre-nosotros p{
+    font-size: 20px
+}
+
+.sobre-nosotros a{
+    color: #804000;
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+    background-color: #804000;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer ul li a:hover {
+    color: #ffd700;
+}

@@ -1,0 +1,137 @@
+
+/* Global Styles */
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(35, 81%, 88%);
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Menú */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    background-image: url("img/fondomenu.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: beige;
+}
+
+/* Banner */
+
+.banner {
+    background-image: url("img/fondomenu.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Brush Script MT;
+}
+
+.contenido-banner h2 {
+    font-size: 90px;
+    font-weight: 50;    
+    margin-bottom: 10px;
+}
+
+/* Seccion de Cafes y Acompañamientos */
+
+.cafe, .acompañamiento {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.lista_cafe, .lista_acompañamiento {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cafes, .acompañamientos {
+    width: 20%;
+    text-align: center;
+}
+
+.cafes img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.acompañamientos img{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 1000px;
+    margin-bottom: 15px;    
+}
+
+/* Logo Free Gluten */
+
+.freegluten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.freegluten img{
+    margin-right: 10px;
+    width: 100px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #804000;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer ul li a:hover {
+    color: #ffd700;
+}
