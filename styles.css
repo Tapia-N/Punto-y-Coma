@@ -1,0 +1,278 @@
+/* Global Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(35, 81%, 88%);
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    background-image: url("img/fondo.jpeg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    background-image: url("img/fondomenu.jpg");
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-nosotros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    background-image: url("img/fondonosotros.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-ubicaciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    background-image: url("img/fondoubicacion.webp");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px 20px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: beige;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("img/fondo.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Brush Script MT;
+}
+
+.hero-menu{
+    background-image: url("img/fondomenu.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Brush Script MT;
+}
+
+.hero-nosotros{
+    background-image: url("img/fondonosotros.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Brush Script MT;
+}
+
+.hero-ubicacion{
+    background-image: url("img/fondoubicacion.webp");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: beige;
+    font-family: Brush Script MT;
+}
+
+.hero-content-nosotros h2{
+    font-size: 90px;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
+
+.hero-content-ubicacion h2{
+    font-size: 90px;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
+
+.hero-content-ubicacion {
+    font-size: 50px;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
+
+.hero-content h2 {
+    font-size: 90px;
+    font-weight: 50;    
+    margin-bottom: 10px;
+}
+
+.hero-content-menu h2 {
+    font-size: 90px;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Sección de Hoteles */
+.seccion-novedades, .cafe, .acompañamiento, .testimonios, .sobre-nosotros {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.sobre-nosotros p{
+    font-size: 20px
+}
+
+.sobre-nosotros a{
+    color: #804000;
+    text-decoration: underline;
+}
+
+.lista-novedades, .lista_cafe, .testimonio-list, .lista_acompañamiento, .lista_acompañamiento {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cafes, .novedades {
+    width: 20%;
+    text-align: center;
+}
+
+.cafes img, .novedades img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.acompañamientos{
+    width: 20%;
+    text-align: center;
+}
+
+.acompañamientos img{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 1000px;
+    margin-bottom: 15px;    
+}
+
+.cafes h3 {
+    font-size: 24px;
+}
+
+.testimonios p {
+    font-size: 18px;
+    padding: 10px 20px;
+    font-style: italic;
+}
+
+.freegluten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.freegluten img{
+    margin-right: 10px;
+    width: 100px;
+}
+
+/* Footer */
+footer {
+    background-color: #804000;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer ul li a:hover {
+    color: #ffd700;
+}
