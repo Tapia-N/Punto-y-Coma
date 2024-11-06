@@ -83,6 +83,30 @@ nav ul li a:hover {
 
 .seccion-historia p{
     font-size: 25px;
+    padding: 30px;
+    padding-block: 30px;
+}
+
+.seccion-historia img{
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Seccion de Trabajo */
+
+.seccion-trabajo{
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.seccion-trabajo h2{
+    font-size: 50px;
+}
+
+.seccion-trabajo a{
+    font-size: 30px;
+    color: #804000;
+    text-decoration: underline;
 }
 
 /* Footer */
