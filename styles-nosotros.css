@@ -71,25 +71,49 @@ nav ul li a:hover {
 
 /* Seccion de Nuestra Historia */
 
-.seccion-historia{
-    padding: 60px 30px;
+.sobre-nosotros h2{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.sobre-nosotros {
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.sobre-nosotros a{
     text-align: center;
 }
 
-.seccion-historia h2 {
-    font-size: 40px;
-    margin-bottom: 40px;
+.introduccion, .contenido-completo {
+    padding: 10px;
 }
 
-.seccion-historia p{
-    font-size: 25px;
-    padding: 30px;
-    padding-block: 30px;
-}
-
-.seccion-historia img{
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+.contenido-completo img{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
     border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contenido-completo{
+    display: none;
+    font-size: 20px;
+}
+
+.toggle-text {
+    color: #332d15;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Seccion de Trabajo */

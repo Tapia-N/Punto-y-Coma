@@ -165,33 +165,6 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Cafeteria Zona Obelisco */
-
-.cafeteria-obelisco{
-    background-image: url("img/cafeteria-obelisco.webp");
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: beige;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.contenido-obelisco h2 {
-    font-size: 90px;
-    font-weight: 50;    
-    margin-bottom: 10px;
-}
-
-.contenido-obelisco p {
-    font-size: 44px;
-    margin-bottom: 20px;
-}
 
 /* Cafeteria Recoleta */
 

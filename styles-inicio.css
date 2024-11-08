@@ -129,7 +129,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Seccion Sobre Nosotros*/
+/* Seccion Sobre Nosotros */
 
 .sobre-nosotros {
     padding: 60px 30px;
@@ -146,36 +146,66 @@ nav ul li a:hover {
 }
 
 /* Video */
+
 .video-banner {
     position: relative;
     width: 100%;
-    height: 100vh; /* Ajusta la altura como prefieras */
+    height: 100vh;
     overflow: hidden;
   }
-  
-  /* Video que ocupa todo el banner */
-  .video-banner video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-  }
-  
-  /* Contenido del banner (texto, botones) */
-  .video-banner .content {
+
+/* Seccion de Reviews */
+
+.reviews-generales {
     position: relative;
-    z-index: 1;
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.review {
+    padding-top: 50px;
+    position: absolute;
     text-align: center;
-    color: white;
-    font-size: 2em;
-  }
+    opacity: 0;
+    transform: translateX(100%);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.review.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.review:not(.visible) {
+    transform: translateX(100%);
+}
+
+.review img {
+    width: 1000%;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+    border-radius: 50%;
+    margin-right: 15px; 
+}
+
+.texto-de-review {
+    color: #333;
+}
+
+.nombre-review {
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+}
+
+.descripcion {
+    margin: 0;
+}
+
 
 /* Footer */
 
